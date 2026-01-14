@@ -14,10 +14,11 @@ body {
   color: white;
 }
 
+/* NAVBAR STARTS*/
+
 .navbar-elements {
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   width: 50%;
   padding: 20px;
@@ -25,17 +26,14 @@ body {
 
 #navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  background-color: #be3144;
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
-  background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
 }
+
+/* NAVBAR ENDS */
 
 #welcome-section {
   display: flex;
@@ -53,22 +51,7 @@ body {
   color: red;
 }
 
-#navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-@media (max-width: 600px) {
-  #navbar {
-    font-size: 14px;
-  }
-}
-
-.img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  box-sizing: inherit;
+a {
+  text-decoration: none;
+  color: white;
 }
